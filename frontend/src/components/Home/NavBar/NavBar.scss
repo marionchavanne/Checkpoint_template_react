@@ -1,0 +1,30 @@
+.NavBar {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  font-family: $mainTypo;
+  color: $text-secondary-color;
+  border-bottom: solid $text-secondary-color;
+  ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    gap: 20px;
+    height: 50px;
+    font-weight: bold;
+    li {
+      display: flex;
+      font-size: 20px;
+    }
+
+    .logo {
+      width: 80px;
+      height: 80px;
+    }
+  }
+}

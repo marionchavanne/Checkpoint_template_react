@@ -1,0 +1,16 @@
+.footer {
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: $nav-background;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  padding: 7px;
+  color: $background-color;
+}
